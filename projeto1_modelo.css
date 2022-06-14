@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Pacifico&family=Tai+Heritage+Pro:wght@400;700&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+    background-color: blue;
+   
+}
+#log {
+    display: flex;
+    justify-content: center;
+    position: relative;
+   
+}
+.form1 {
+    display: flex;
+    justify-content: center;
+    border: 3px solid yellow;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: -90px;
+    left: -25px;
+   border-radius: 10px;
+   background: #2a2aff;
+   z-index: 0;
+  
+}
+.login {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: -120px;
+
+  
+} 
+label {
+   position: relative;
+   right: -50px;
+   color: yellow;
+   text-shadow: 2px 2px 2px black;
+}
+input {
+    margin: 10px;
+    border-radius: 10px;
+    background: yellow;
+    color: darkblue;
+}
+#area_log {
+    display: flex;
+    justify-content: center;
+}
+#area_log h1 {
+    color: yellow;
+    font-size: 4rem;
+    font-family: Fredoka One, sans-serif;
+    text-shadow: 3px 3px 3px black;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+}
+#btn button {
+    position: relative;
+    bottom: -10px;
+    background-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn button:hover {
+    background: rgb(248, 172, 6);
+}
+#fig_user {
+    position: relative;
+    left: -20px;
+}
+#fig_user img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    right: -220px;
+    bottom: -140px;
+    z-index: 1;
+    border: 1px solid yellow;
+    width: 50px;
+    height: 50px;
+    background: yellow;
+    border-radius: 50px;
+    box-shadow: 3px 3px 4px black;
+}
+#out {
+    display: flex;
+    justify-content: right;
+}
+#out a {
+    position: relative;
+    top: -90px;
+    right: -70px;
+    text-decoration: none;
+    color: white;
+}

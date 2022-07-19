@@ -94,6 +94,7 @@ input {
 #out {
     display: flex;
     justify-content: right;
+    transition: transform 0.2s;
 }
 #out a {
     position: relative;
@@ -101,4 +102,7 @@ input {
     right: -70px;
     text-decoration: none;
     color: white;
+}
+#out a:hover {
+    transform: scale(1.2); 
 }

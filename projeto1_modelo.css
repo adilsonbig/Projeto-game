@@ -108,5 +108,9 @@ input {
 }
 #title_dica h1 {
     color: #FFD700;
-   
+    margin-left: 10px;
+    font-size: 4rem;
+    text-shadow: 3px 3px 3px #4876FF;
+    font-family: Fredoka One, sans-serif;
+    text-align: center;
  }

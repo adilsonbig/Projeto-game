@@ -127,7 +127,18 @@ input {
  #text_dicas h1 {
  text-shadow: 2px 2px 2px #FFD700;
  }
+ #text_dicas p{
+    padding: 5px;
+ }
  #text_dicas h1, h2 {
-    text-align: center;
+   text-align: center;
+ }
+ .dica1 {
+    height: 100px;
+    border: 2px solid #FFF;
+    width: 90%;
+    position: relative;
+    right: -70px;
+    background: #FFD700;
  }
 

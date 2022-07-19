@@ -114,3 +114,20 @@ input {
     font-family: Fredoka One, sans-serif;
     text-align: center;
  }
+ #imagen5 {
+    display: flex;
+    justify-content: center;
+   
+ }
+ #text_dicas {
+    display: flex;
+    flex-direction: column;
+    color: #FFF;
+ }
+ #text_dicas h1 {
+ text-shadow: 2px 2px 2px #FFD700;
+ }
+ #text_dicas h1, h2 {
+    text-align: center;
+ }
+

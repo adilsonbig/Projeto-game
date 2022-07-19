@@ -106,3 +106,7 @@ input {
 #out a:hover {
     transform: scale(1.2); 
 }
+#title_dica h1 {
+    color: #FFD700;
+   
+ }

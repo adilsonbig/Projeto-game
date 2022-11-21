@@ -187,6 +187,7 @@ input {
     border: 2px solid white;
     width: 80rem;
     height: 46rem;
+   padding: 0;
     
  }
  #dicas_MK h2 {
@@ -200,5 +201,10 @@ input {
     position: relative;
     bottom: -150px;
     margin-left:10px;
+ }
+ #dicas_MK img {
+    position: relative;
+    right: -900px;
+    top: -450px;
  }
 

@@ -179,7 +179,7 @@ input {
     bottom: -100px;
     color: #FFF;
  }
- #dicas_MK {
+ #dicas_MK-sb {
     display: block;
     position: relative;
     bottom: -200px;
@@ -190,19 +190,45 @@ input {
    padding: 0;
     
  }
- #dicas_MK h2 {
+ #dicas_MK-sb h2 {
     text-align: left;
     position: relative;
     bottom: -120px;
    margin-left: 10px;
     
  }
- #dicas_MK p {
+ #dicas_MK-sb p {
     position: relative;
     bottom: -150px;
     margin-left:10px;
  }
- #dicas_MK img {
+ #dicas_MK-sb img {
+    position: relative;
+    right: -900px;
+    top: -450px;
+ }
+ #dicas_MK-sc {
+    display: block;
+    position: relative;
+    bottom: -250px;
+    color: #FFF;
+    border: 2px solid white;
+    width: 80rem;
+    height: 46rem;
+   padding: 0;
+ }
+ #dicas_MK-sc h2 {
+    text-align: left;
+    position: relative;
+    bottom: -120px;
+   margin-left: 10px;
+ }
+ #dicas_MK-sc p {
+    position: relative;
+    bottom: -150px;
+    margin-left:10px;
+ }
+ #dicas_MK-sc img {
     position: relative;
     right: -900px;
     top: -450px;

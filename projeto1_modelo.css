@@ -140,18 +140,18 @@ input {
  #imagen5 img:hover {
     transform: scale(1.2);
  }
- #text_dicas {
+ #dicas_sonic {
     display: flex;
     flex-direction: column;
     color: #FFF;
  }
- #text_dicas h1 {
+ #dicas_sonic h1 {
  text-shadow: 2px 2px 2px #FFD700;
  }
- #text_dicas p{
+ #dicas_sonic p{
     padding: 5px;
  }
- #text_dicas h1, h2 {
+ #dicas_sonic h1, h2 {
    text-align: center;
  }
  .dica1 {
@@ -166,5 +166,26 @@ input {
     color: #2a2aff;
     font-size: 1rem;
 
+ }
+ #dicas_MK {
+    display: block;
+    position: relative;
+    bottom: -200px;
+    color: #FFF;
+ }
+ #dicas_MK h1 {
+    text-align: center;
+ }
+ #dicas_MK h2 {
+    text-align: left;
+    position: relative;
+    bottom: -60px;
+   margin-left: 10px;
+    
+ }
+ #dicas_MK p {
+    position: relative;
+    bottom: -90px;
+    margin-left:10px;
  }
 

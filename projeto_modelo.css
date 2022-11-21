@@ -317,5 +317,12 @@ h3 {
  #out a:hover {
     transform: scale(1.2); 
  }
+ #dicas_MK {
+    display: flex;
+    
+ }
+ #dicas_MK h1 {
+    text-align: center;
+ }
  
  

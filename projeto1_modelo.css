@@ -167,25 +167,38 @@ input {
     font-size: 1rem;
 
  }
+ #tit_dica1 {
+    display: flex;
+    justify-content: center;
+    text-shadow: 2px 2px 2px yellow;
+   
+ }
+ #tit_dica1 h1 {
+    font-size: 3rem;
+    position: relative;
+    bottom: -100px;
+    color: #FFF;
+ }
  #dicas_MK {
     display: block;
     position: relative;
     bottom: -200px;
     color: #FFF;
- }
- #dicas_MK h1 {
-    text-align: center;
+    border: 2px solid white;
+    width: 80rem;
+    height: 46rem;
+    
  }
  #dicas_MK h2 {
     text-align: left;
     position: relative;
-    bottom: -60px;
+    bottom: -120px;
    margin-left: 10px;
     
  }
  #dicas_MK p {
     position: relative;
-    bottom: -90px;
+    bottom: -150px;
     margin-left:10px;
  }
 

@@ -215,7 +215,7 @@ input {
     border: 2px solid white;
     width: 80rem;
     height: 73rem;
-   padding: 0;
+   
  }
  #dicas_MK-sc h2 {
     text-align: left;
@@ -232,6 +232,33 @@ input {
     position: relative;
     right: -900px;
     top: -950px;
+
+ }
+ #dicas_MK-rd {
+   display: block;
+   position: relative;
+   bottom: -290px;
+   color: #FFF;
+   border: 2px solid white;
+   width: 80rem;
+   height: 62rem;
+ }
+ #dicas_MK-rd h2 {
+   text-align: left;
+    position: relative;
+    bottom: -160px;
+   margin-left: 10px;
+
+ }
+ #dicas_MK-rd p {
+   position: relative;
+    bottom: -150px;
+    margin-left:10px;
+ }
+ #dicas_MK-rd img {
+   position: relative;
+   right: -900px;
+   top: -650px;
 
  }
 

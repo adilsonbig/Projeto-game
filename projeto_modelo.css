@@ -317,12 +317,18 @@ h3 {
  #out a:hover {
     transform: scale(1.2); 
  }
- #dicas_MK {
+ #imagen5 {
     display: flex;
-    
+    justify-content: space-around;
  }
- #dicas_MK h1 {
-    text-align: center;
+ #imagen5 img {
+    position: relative;
+    bottom: -150px;
+    border-radius: 10px;
+     box-shadow: 3px 3px 4px black;
+     transition: transform 0.2s;
+     cursor: pointer;
  }
- 
- 
+ #imagen5 img:hover {
+    transform: scale(1.2); 
+}

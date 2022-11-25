@@ -205,36 +205,8 @@ h3 {
 #imagen4 img:hover {
     transform: scale(1.2); 
 }
-#social {
-    display: flex;
-    justify-content: right;
-   
-    height: 40px;
-   
-}
-#social img{
-    margin-right: 30px;
-    width: 2rem;
-    position: relative;
-    bottom: -200px;
-    
-    
-}
- #diret  {
-    display: flex;
- }
- #diret a {
-    position: relative;
-    bottom: -224px;
-    margin-left: 10px;
-    text-decoration: none;
-    color: #FFD700;
-    text-shadow: 2px 2px 2px black;
-    
- }
- #diret a:hover {
-    color: orange;
- }
+
+ 
  #container {
     display: flex;
     justify-content: center;
@@ -338,7 +310,7 @@ h3 {
  }
  #imagen6 img {
     position: relative;
-    bottom: -150px;
+    bottom: -230px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
@@ -346,4 +318,33 @@ h3 {
  }
  #imagen6 img:hover {
     transform: scale(1.2); 
+}
+#diret  {
+    display: flex;
+ }
+ #diret a {
+    position: relative;
+    bottom: -300px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #FFD700;
+    text-shadow: 2px 2px 2px black;
+    
+ }
+ #diret a:hover {
+    color: orange;
+ }
+ #social {
+    display: flex;
+    justify-content: right;
+    height: 40px;
+   
+}
+#social img{
+    margin-right: 30px;
+    width: 2rem;
+    position: relative;
+    bottom: -270px;
+    
+    
 }

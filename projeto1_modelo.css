@@ -261,4 +261,28 @@ input {
    top: -650px;
 
  }
+ #lojas {
+   display: flex;
+   justify-content: center;
+ }
+ #lojas h1 {
+   color: #FFF;
+   font-size: 3rem;
+   font-family: Fredoka One, sans-serif;
+ }
+ #lojas_back {
+   display: flex;
+   justify-content: right;
+   
+}
+
+#lojas_back ul a {
+   position: relative;
+   top: -110px;
+   left: -30px;
+   text-decoration: none;
+   color: #FFF;
+   text-shadow: 2px 2px 2px #FFD700;
+}
+
 

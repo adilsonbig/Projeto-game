@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Pacifico&family=Tai+Heritage+Pro:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 body{
     margin: 0px;
     padding: 0px;
@@ -169,10 +170,13 @@ h3 {
     text-align: center;
     position: relative;
     top: -80px;
-    color: white;
-    font-size: 2rem;
+    color: #FF0000;
+    font-size: 3rem;
     text-shadow: 3px 3px 3px black;
+    font-family: Bold 700;
 }
+
+
 #imagen3 {
     display: flex;
     justify-content: space-around;
@@ -187,8 +191,13 @@ h3 {
 #imagen3 img:hover {
     transform: scale(1.2); 
 }
-#alta h1{
-    text-align: center;
+#logo3 {
+    display: flex;
+    justify-content: center;
+}
+#logo3 img {
+    position: relative;
+    bottom: -50px;
 }
 #imagen4 {
     display: flex;
@@ -205,8 +214,9 @@ h3 {
 #imagen4 img:hover {
     transform: scale(1.2); 
 }
-
- 
+#alta h1{
+    text-align: center;
+}
  #container {
     display: flex;
     justify-content: center;
@@ -288,7 +298,7 @@ h3 {
  }
  #out a:hover {
     transform: scale(1.2); 
- }
+ } 
  #imagen5 {
     display: flex;
     justify-content: space-around;
@@ -302,13 +312,28 @@ h3 {
      cursor: pointer;
  }
  #imagen5 img:hover {
-    transform: scale(1.2); 
-}
-#imagen6 {
+    transform: scale(1.2);
+ }
+ #imagen6 {
     display: flex;
     justify-content: space-around;
  }
  #imagen6 img {
+    position: relative;
+    bottom: -150px;
+    border-radius: 10px;
+     box-shadow: 3px 3px 4px black;
+     transition: transform 0.2s;
+     cursor: pointer;
+ }
+ #imagen6 img:hover {
+    transform: scale(1.2); 
+}
+#imagen7 {
+    display: flex;
+    justify-content: space-around;
+ }
+ #imagen7 img {
     position: relative;
     bottom: -230px;
     border-radius: 10px;
@@ -316,7 +341,7 @@ h3 {
      transition: transform 0.2s;
      cursor: pointer;
  }
- #imagen6 img:hover {
+ #imagen7 img:hover {
     transform: scale(1.2); 
 }
 #diret  {

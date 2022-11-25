@@ -332,3 +332,18 @@ h3 {
  #imagen5 img:hover {
     transform: scale(1.2); 
 }
+#imagen6 {
+    display: flex;
+    justify-content: space-around;
+ }
+ #imagen6 img {
+    position: relative;
+    bottom: -150px;
+    border-radius: 10px;
+     box-shadow: 3px 3px 4px black;
+     transition: transform 0.2s;
+     cursor: pointer;
+ }
+ #imagen6 img:hover {
+    transform: scale(1.2); 
+}

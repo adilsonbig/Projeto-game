@@ -8,20 +8,20 @@ body{
     background: linear-gradient(#00008B, #0000EE, #00008B);
    
 }
-#logo {
+#logo { /*primeiro h1 */
     display: flex;
     justify-content: center;
 }
 header {
     margin-bottom: 0px;
 }
-h1{
+h1{ 
     color: #FFD700;
     margin-left: 10px;
     font-size: 4rem;
     text-shadow: 3px 3px 3px #4876FF;
     font-family: Fredoka One, sans-serif;
-}
+} /* primeiro h1 */
 nav {
     display: flex;
 }
@@ -113,27 +113,28 @@ margin-bottom: 0%;
     width: 20rem;
     
 }
+.inform{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -80px;
+    
+}
+.inform p {
+    font-size: 3rem;
+}
 #imagen1 {
     display: flex;
     justify-content: center;
 }
 #imagen1 img{
     position: relative;
-     top: -300px;
+     top: -200px;
      width: 20rem;
      
 }
 
-.inform{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: -200px;
-    
-}
-.inform p {
-    font-size: 3rem;
-}
+
 #imagen2 {
     display: flex;
     justify-content: space-around;
@@ -172,7 +173,7 @@ h3 {
     top: -80px;
     color: #FF0000;
     font-size: 3rem;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 5px 5px 5px black;
     font-family: Bold 700;
 }
 
@@ -191,37 +192,54 @@ h3 {
 #imagen3 img:hover {
     transform: scale(1.2); 
 }
-#logo3 {
+
+
+#logo3 {  /* logotipo mario*/
     display: flex;
     justify-content: center;
 }
 #logo3 img {
     position: relative;
-    bottom: -50px;
+    bottom: -120px;
+    width: 20rem;
+    transition: transform 0.2s;
 }
-#imagen4 {
+#logo3 img:hover {
+    transform: scale(1.2); 
+}       /*logotipo mario */
+
+
+#imagen4 {  /*imagens mario */
     display: flex;
     justify-content: space-around;
 }
-#imagen4 img {
+#imagen4 img {  
     position: relative;
-    bottom: -70px;
+    bottom: -220px;
+    border: 2px solid #fff;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
      cursor: pointer;
-}
+}      
 #imagen4 img:hover {
     transform: scale(1.2); 
-}
-#alta h1{
+}     /*imagens mario*/
+
+#alta h1{ /*  segundo h1 */
     text-align: center;
-}
- #container {
+}       
+#alta h1 {
+    position: relative;
+    bottom: -320px;
+} /*  segundo h1 */
+
+
+ #container { /* formulario cadastro */
     display: flex;
     justify-content: center;
  }
- #form {
+ #form {  
     width: 400px;
     height: 300px;
     border: 3px solid yellow;
@@ -283,8 +301,10 @@ h3 {
  }
  .btn2 a:hover {
     color: #FFFFFF;
- }
- #out {
+ }  /* formulario cadastro */
+
+
+ #out {  /*volta ao home */
     display: flex;
     justify-content: right;
  }
@@ -298,14 +318,16 @@ h3 {
  }
  #out a:hover {
     transform: scale(1.2); 
- } 
+ }  /* volta ao home */
+
+
  #imagen5 {
     display: flex;
     justify-content: space-around;
  }
  #imagen5 img {
     position: relative;
-    bottom: -150px;
+    bottom: -350px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
@@ -320,7 +342,7 @@ h3 {
  }
  #imagen6 img {
     position: relative;
-    bottom: -150px;
+    bottom: -500px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
@@ -335,7 +357,7 @@ h3 {
  }
  #imagen7 img {
     position: relative;
-    bottom: -230px;
+    bottom: -600px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
@@ -349,7 +371,7 @@ h3 {
  }
  #diret a {
     position: relative;
-    bottom: -300px;
+    bottom: -780px;
     margin-left: 10px;
     text-decoration: none;
     color: #FFD700;
@@ -369,7 +391,7 @@ h3 {
     margin-right: 30px;
     width: 2rem;
     position: relative;
-    bottom: -270px;
+    bottom: -750px;
     
     
 }

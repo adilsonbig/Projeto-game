@@ -237,7 +237,7 @@ input {
  #dicas_MK-rd {
    display: block;
    position: relative;
-   bottom: -290px;
+   bottom: -300px;
    color: #FFF;
    border: 2px solid white;
    width: 80rem;
@@ -260,6 +260,32 @@ input {
    right: -900px;
    top: -650px;
 
+ }
+ #dicas_MK-sn {
+   display: block;
+   position: relative;
+   bottom: -345px;
+   color: #FFF;
+   border: 2px solid white;
+   width: 80rem;
+   height: 62rem;
+ }
+ #dicas_MK-sn h2 {
+   text-align: left;
+    position: relative;
+    bottom: -160px;
+   margin-left: 10px;
+
+ }
+ #dicas_MK-sn p {
+   position: relative;
+    bottom: -150px;
+    margin-left:10px;
+ }
+ #dicas_MK-sn img {
+   position: relative;
+   right: -600px;
+   top: -850px;
  }
  #lojas {
    display: flex;

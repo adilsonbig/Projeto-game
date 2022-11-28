@@ -268,7 +268,7 @@ input {
    color: #FFF;
    border: 2px solid white;
    width: 80rem;
-   height: 62rem;
+   height: 65rem;
  }
  #dicas_MK-sn h2 {
    text-align: left;
@@ -284,8 +284,8 @@ input {
  }
  #dicas_MK-sn img {
    position: relative;
-   right: -600px;
-   top: -850px;
+   right: -840px;
+   top: -750px;
  }
  #lojas {
    display: flex;

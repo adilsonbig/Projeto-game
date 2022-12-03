@@ -339,5 +339,21 @@ input {
    color: #FFF;
    text-shadow: 2px 2px 2px #FFD700;
 }
+#curi1 {
+   display: block;
+   
+}
 
+#curi1 h1 {
+   text-align: center;
+   font-size: 4rem;
+   color: #FFF;
+   text-shadow: 1px 1px 3px yellow;
+}
+#curi1 p {
+   text-align: justify;
+   color: #FFF;
+   font-size: 1.2rem;
+   padding: 10px;
+}
 

@@ -287,6 +287,32 @@ input {
    right: -840px;
    top: -750px;
  }
+ #dicas_MK-LK {
+   display: block;
+   position: relative;
+   bottom: -345px;
+   color: #FFF;
+   border: 2px solid white;
+   width: 80rem;
+   height: 65rem;
+
+ }
+ #dicas-MK-LK h2 {
+   text-align: left;
+   position: relative;
+   bottom: -160px;
+  margin-left: 10px;
+ }
+ #dicas_MK-LK p {
+   position: relative;
+    bottom: -150px;
+    margin-left:10px;
+ }
+ #dicas_MK-LK img {
+   position: relative;
+   right: -840px;
+   top: -750px;
+ }
  #lojas {
    display: flex;
    justify-content: center;

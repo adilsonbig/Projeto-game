@@ -290,14 +290,14 @@ input {
  #dicas_MK-LK {
    display: block;
    position: relative;
-   bottom: -345px;
+   bottom: -390px;
    color: #FFF;
    border: 2px solid white;
    width: 80rem;
-   height: 65rem;
+   height: 45rem;
 
  }
- #dicas-MK-LK h2 {
+ #dicas_MK-LK h2 {
    text-align: left;
    position: relative;
    bottom: -160px;

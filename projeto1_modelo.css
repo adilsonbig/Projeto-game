@@ -339,6 +339,18 @@ input {
    color: #FFF;
    text-shadow: 2px 2px 2px #FFD700;
 }
+#curi_back {
+   display: flex;
+   justify-content: right;
+}
+#curi_back ul a {
+   position: relative;
+   left: -30px;
+   text-decoration: none;
+   color: #FFF;
+   text-shadow: 2px 2px 2px #FFD700;
+}
+
 #curi1 {
    display: block;
    

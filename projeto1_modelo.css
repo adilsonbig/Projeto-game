@@ -310,8 +310,11 @@ input {
  }
  #dicas_MK-LK img {
    position: relative;
-   right: -840px;
-   top: -750px;
+   width: 25rem;
+
+  right: -800px;
+  top: -430px;
+   
  }
  #lojas {
    display: flex;

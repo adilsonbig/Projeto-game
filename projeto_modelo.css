@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Fredoka+One&family=Pacifico&family=Tai+Heritage+Pro:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
 body{
     margin: 0px;
     padding: 0px;
@@ -9,7 +11,81 @@ body{
     background: linear-gradient(#00008B, #0000EE, #00008B);
    
 }
-#logo { /*primeiro h1 */
+section.area_menu {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #FFD700;
+    box-shadow: 2px 2px 3px #fff;
+    
+}
+section.area_menu nav {
+    display: flex;
+    justify-content: left;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    position: relative;
+    top: ;
+    transition: 1s;
+    
+    
+}
+nav ul li:hover {
+    background: #fff;
+     border-radius: 10px;
+}
+nav ul li a {
+    padding: 10px;
+    color: #0000ff;
+    text-decoration: none;
+    font-family: Fredoka One, sans-serif;
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    color: #0b0bac;
+}
+h2.propag {
+    font-family: Fredoka One, sans-serif;
+    text-shadow: 2px 2px 3px #fff;
+    color: #0b0bb6;
+   
+   
+}
+section.area_menu .menu  {
+    display: flex;
+    justify-content: right;
+}
+.menu ul {
+    
+    list-style: none;
+    margin-right: 30px;
+}
+.menu ul li {
+    display: inline-block;
+    
+   transition: 1s;
+    
+}
+.menu ul li:hover {
+    background: #fff;
+    border-radius: 10px;
+}
+
+.menu ul li a{
+    padding: 10px;
+    text-decoration: none;
+    color: #0000ff;
+    font-family: Fredoka One, sans-serif;
+    font-size: 1.2rem;
+}
+.menu ul li a:hover {
+    color: #0b0bac;
+}
+.logo { /*primeiro h1 */
     display: flex;
     justify-content: center;
 }
@@ -21,191 +97,140 @@ h1{
     font-size: 4rem;
     text-shadow: 3px 3px 3px #4876FF;
     font-family: Fredoka One, sans-serif;
-    
-    
-} /* primeiro h1 */
-nav {
+ } /* primeiro h1 */
+ section.coment {
     display: flex;
-    justify-content: left;
-}
-nav ul {
-    list-style: none;
-}
-nav ul li {
-    display: inline-block;
-    position: relative;
-    top: -160px;
-    transition: 1s;
-    
-    
-}
-nav ul li:hover {
-    background: #5858FA;
-    
-    border-radius: 10px;
-}
-nav ul li a {
-    padding: 10px;
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: Fredoka One, sans-serif;
-}
-
-#menu  {
-    display: flex;
-    justify-content: right;
-}
-#menu ul {
-    
-    list-style: none;
-    margin-right: 30px;
-}
-#menu ul li {
-    display: inline-block;
-    position: relative;
-    top: -210px;
-   transition: 1s;
-    
-}
-#menu ul li:hover {
-    background: #5858FA;
-    border-radius: 10px;
-}
-
-#menu ul li a{
-    padding: 10px;
-    text-decoration: none;
-    color: #ffffff;
-    font-family: Fredoka One, sans-serif;
-}
-    
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 20px;
+ }   
 p {
 display: flex;
 color: white;
-font-size: 1.2em;
+font-size: 1.5em;
 text-align: justify;
 margin-left: 25px;
 position: relative;
 top: -350px;
 text-shadow: 2px 2px 2px yellow;
 
-
-
-
-
-}
-.ter {
-    visibility: hidden;
-}
-#imagen {
-    display: flex;
-    justify-content: right;
-   
-   
 }
 
-.foto1 img {
-   position: relative;
-   top: -120px;
-   right: -90px;
-   width: 80%;
-   z-index: 1;
-   cursor: pointer;
-   transition: transform 0.2s;
-}
-.foto1 img:hover {
-    transform: scale(1.5);
-}
-.foto2 img {
-position: relative;
-left: -210px;
-width: 15rem;
-z-index: 0;
-
-}
-
-
-
-.inform{
+figure {
     display: flex;
     justify-content: center;
+}
+
+figure.soni_star  {
     position: relative;
-    top: -10px;
+}
+figure.soni_star .img1 {
+
+}
+.img1 {
+    position: relative;
+    z-index: 1;
     
 }
-.inform p {
+figure.soni_star .img2 img{
+ width: 100px;   
+}
+.img2 img{
+  position: absolute;  
+   top: 400px;
+   left: 480px;
+   z-index: 0;
+   width: 300px;
+}
+p.pri {
+    width: 300px;
+    height: 300px;
+    font-size: 1.9rem;
+}
+p.seg {
+    width: 300px;
+    height: 300px;
+    font-size: 1.9rem;
+    margin-right: 5px;
+}
+
+#inform{
     display: flex;
-    font-size: 2rem;
-    position: relative;
-    top: -420px;
+    justify-content: center;
+     margin-top: 50px;
+}
+#inform p {
+    display: flex;
+    font-size: 2.5rem;
+    font-family: Fredoka One;
+    border: 2px solid black;
 }
 #imagen1 {
     display: flex;
     justify-content: center;
-}
-#imagen1 img{
     position: relative;
-     top: -200px;
-     width: 15rem;
-     
+    margin-top: 0px;
+ }
+#imagen1 img{
+    position: absolute;
+    top: -250px;
+      width: 20rem;
+      border: 2px solid black;
 }
 
 
-#imagen2 {
+.imagen2 {
     display: flex;
     justify-content: space-around;
+    margin-top: 150px;
 
 }
-#imagen2 img {
-    position: relative;
-    top: -230px;
+.imagen2 img {
     transition: transform 0.2s;
     cursor: pointer;
     box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
 }
-#imagen2 img:hover {
+.imagen2 img:hover {
     transform: scale(1.2); 
 }
 #logo2 {
 display: flex;
 justify-content: center;
-
+margin-top: 100px;
 
 }
 #logo2 img{
-    position: relative;
-    top: -100px;
-    width: 13rem;
-    transition: transform 0.5s;
-    cursor: pointer;
+     transition: transform 0.5s;
+     cursor: pointer;
     
 }
 #logo2 img:hover {
     transform: rotateZ(360deg);
 }
-h3 {
+
+h3#mt  {
     text-align: center;
-    position: relative;
-    top: -80px;
-    color: #FF0000;
+     color: #FF0000;
     font-size: 3rem;
     text-shadow: 5px 5px 5px black;
     font-family: Bold 700;
+    margin-top: 50px;
 }
 
 
-#imagen3 {
+.imagen3 {
     display: flex;
     justify-content: space-around;
+    margin-top: 100px;
 }
-#imagen3 img {
-    position: relative;
-    top: -50px;
-     transition: transform 0.2s;
+.imagen3 img {
+    transition: transform 0.2s;
     cursor: pointer;
     box-shadow: 3px 3px 3px black;
+    border-radius: 10px;
 }
-#imagen3 img:hover {
+.imagen3 img:hover {
     transform: scale(1.2); 
 }
 
@@ -215,8 +240,7 @@ h3 {
     justify-content: center;
 }
 #logo3 img {
-    position: relative;
-    bottom: -120px;
+    margin-top: 100px;
     width: 20rem;
     transition: transform 0.2s;
 }
@@ -225,20 +249,19 @@ h3 {
 }       /*logotipo mario */
 
 
-#imagen4 {  /*imagens mario */
+.imagen4 {  /*imagens mario */
     display: flex;
     justify-content: space-around;
 }
-#imagen4 img {  
-    position: relative;
-    bottom: -220px;
-    border: 2px solid #fff;
-    border-radius: 10px;
+.imagen4 img {  
+     border: 2px solid #fff;
+     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
      cursor: pointer;
+     margin-top: 100px;
 }      
-#imagen4 img:hover {
+.imagen4 img:hover {
     transform: scale(1.2); 
 }     /*imagens mario*/
 
@@ -246,8 +269,7 @@ h3 {
     text-align: center;
 }       
 #alta h1 {
-    position: relative;
-    bottom: -320px;
+    margin-top: 100px;
 } /*  segundo h1 */
 
 
@@ -337,80 +359,83 @@ h3 {
  }  /* volta ao home */
 
 
- #imagen5 {
+ .imagen5 {
     display: flex;
     justify-content: space-around;
  }
- #imagen5 img {
-    position: relative;
-    bottom: -350px;
+ .imagen5 img {
+    margin-top: 100px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
      cursor: pointer;
  }
- #imagen5 img:hover {
+ .imagen5 img:hover {
     transform: scale(1.2);
  }
- #imagen6 {
+ .imagen6 {
     display: flex;
     justify-content: space-around;
  }
- #imagen6 img {
-    position: relative;
-    bottom: -500px;
+ .imagen6 img {
+    margin-top: 100px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
      cursor: pointer;
  }
- #imagen6 img:hover {
+ .imagen6 img:hover {
     transform: scale(1.2); 
 }
-#imagen7 {
+.imagen7 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 0;
  }
- #imagen7 img {
-    position: relative;
-    bottom: -600px;
+ .imagen7 img {
+    margin-top: 100px;
     border-radius: 10px;
      box-shadow: 3px 3px 4px black;
      transition: transform 0.2s;
      cursor: pointer;
  }
- #imagen7 img:hover {
+ .imagen7 img:hover {
     transform: scale(1.2); 
 }
 #diret  {
     display: flex;
  }
- #diret a {
-    position: relative;
-    bottom: -780px;
-    margin-left: 10px;
+ section.rodape {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    height: 200px;
+    margin-bottom: 10px;
+   
+ }
+ section.rodape #diret a {
     text-decoration: none;
     color: #FFD700;
     text-shadow: 2px 2px 2px black;
-    
+    margin-left: 20px;
  }
- #diret a:hover {
+ section.rodape #diret a:hover {
     color: orange;
  }
- .social {
+ section.rodape .social {
     display: flex;
-    justify-content: right;
-    height: 40px;
-   
-}
+    margin-right: 15px;
+    
+ }
+ 
 .social img{
-    margin-right: 30px;
-    width: 2rem;
-    position: relative;
-    bottom: -750px;
-    
-    
-}
+     width: 2rem;
+     
+     margin-right: 10px;
+     
+ }
+
+
 @media(max-width: 1024px) {
     header {
         min-width: 400px;
@@ -470,21 +495,10 @@ h3 {
     
     display: flex;
     justify-content: space-around;
+    
    }
    
-   .foto1 img {
-    width: 40%;
-    position: relative;
-    left: 186px;
-    top: -150px;
    
-   }
-   .foto2 img {
-   width: 60%;
-   position: relative;
-   left: -60%;
-   top: -40%;
-   }
    section {
     display: flex;
     margin-right: 0;

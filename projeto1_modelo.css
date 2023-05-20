@@ -127,19 +127,7 @@ input {
     font-family: Fredoka One, sans-serif;
     text-align: center;
  }
- #imagen5 {
-    display: flex;
-    justify-content: center;
-    
-   
- }
- #imagen5 img {
-    transition: transform 0.2s;
-    cursor: pointer;
- }
- #imagen5 img:hover {
-    transform: scale(1.2);
- }
+ 
  #dicas_sonic {
     display: flex;
     flex-direction: column;

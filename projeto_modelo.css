@@ -721,6 +721,9 @@ h3#mt  {
         nav ul li a {
             padding: 0px;
         }
+        #realize  {
+            display: none;
+        }
     }
 }
  

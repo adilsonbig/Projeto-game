@@ -29,12 +29,7 @@ body {
 .nav-menu {
     list-style: none;
 }
-.nav-menu .nav-itens:first-child {
-    display: none;
-}
-.nav-menu .nav-itens:last-child {
-    display: none;
-}
+
 .nav-itens {
     display: inline-block;
     position: relative;
@@ -597,6 +592,12 @@ h3#mt  {
        
     }
     @media (max-width: 500px) {
+        .area_menu {
+            display: flex;
+        }
+        nav ul li a {
+            padding: 0px;
+        }
         #inform p {
             font-size: 2rem;
         }
@@ -665,6 +666,12 @@ h3#mt  {
     @media (max-width: 150px) {
         #inform p {
             font-size: 0.9rem;
+        }
+        .area_menu {
+            display: flex;
+        }
+        nav ul li a {
+            padding: 0px;
         }
     }
 }

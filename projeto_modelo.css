@@ -679,7 +679,7 @@ h3#mt  {
             font-size: 0.9rem;
         }
         .area_menu {
-            display: none;
+            display: flex;
         }
         nav ul li a {
             padding: 0px;

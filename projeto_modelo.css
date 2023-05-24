@@ -507,7 +507,7 @@ h3#mt  {
         height: 200px;
     }
 }
-@media(max-width: 925px) {
+@media(max-width: 920px) {
    
    
     .vip {
@@ -566,16 +566,89 @@ h3#mt  {
         width: 1.9rem;
     }
 }
-@media (max-width: 860px) {
+@media (max-width: 850px) {
     section.coment {
         display: none;
     }
     #inform p{
         margin-top: 250px;
+        font-size: 1.6rem;
+
     }
     #realize h1 {
         font-size: 1.6rem;
         margin-top: 20px;
+    }
+}
+@media (max-width: 680px) {
+    #imagen1 img {
+        width: 20rem;
+    }
+    
+    .imagen2   {
+       flex-direction: column;
+       align-items: center;
+    }
+    .imagen2 img {
+        display: flex;
+        justify-content: center;
+        width: 400px;
+        height: 200px;
+       
+    }
+    @media (max-width: 500px) {
+        .imagen2 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen2 img {
+            margin-bottom: 100px;
+            width: 300px;
+            height: 150px;
+          
+        }
+        .imagen3 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen3 img {
+            margin-top: 100px;
+            width: 300px;
+            height: 150px;
+        }
+        .imagen4 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen4 img {
+            
+            width: 300px;
+            height: 150px;
+        }
+        .imagen5 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen5 img {
+            width: 300px;
+            height: 150px;
+        }
+        .imagen6 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen6 img {
+            width: 300px;
+            height: 150px;
+        }
+        .imagen7 {
+            flex-direction: column;
+            align-items: center;
+        }
+        .imagen7 img {
+            width: 300px;
+            height: 150px;
+        }
     }
 }
  

@@ -176,10 +176,7 @@ input {
    justify-content: center;
    
  }
- section.scorpion {
-   display: flex;
-   justify-content: center;
- }
+ 
  #dicas_MK-sb {
     display: block;
     position: relative;
@@ -208,6 +205,10 @@ input {
     right: -900px;
     top: -450px;
  }
+ section.scorpion {
+   display: flex;
+   justify-content: center;
+ }
  #dicas_MK-sc {
     display: block;
     position: relative;
@@ -234,6 +235,10 @@ input {
     right: -900px;
     top: -950px;
 
+ }
+ section.raiden {
+   display: flex;
+   justify-content: center;
  }
  #dicas_MK-rd {
    display: block;
@@ -262,6 +267,10 @@ input {
    top: -650px;
 
  }
+ section.sonia {
+   display: flex;
+   justify-content: center;
+ }
  #dicas_MK-sn {
    display: block;
    position: relative;
@@ -287,6 +296,10 @@ input {
    position: relative;
    right: -840px;
    top: -750px;
+ }
+ section.liu-kang {
+   display: flex;
+   justify-content: center;
  }
  #dicas_MK-LK {
    display: block;

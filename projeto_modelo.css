@@ -4,29 +4,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 
-body{
+*{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    background: linear-gradient(#00008B, #0000EE, #00008B);
+   
    
 }
-section.area_menu {
+body {
+    background: linear-gradient(#00008B, #0000EE, #00008B);
+}
+.vip {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
     background: #FFD700;
+    height: 60px;
     box-shadow: 2px 2px 3px #fff;
-    
 }
-section.area_menu nav {
+.area_menu {
     display: flex;
-    justify-content: left;
 }
-nav ul {
+
+.nav-menu {
     list-style: none;
 }
-nav ul li {
+.nav-menu .nav-itens:first-child {
+    display: none;
+}
+.nav-menu .nav-itens:last-child {
+    display: none;
+}
+.nav-itens {
     display: inline-block;
     position: relative;
     top: ;
@@ -52,9 +61,7 @@ h2.propag {
     font-family: Fredoka One, sans-serif;
     text-shadow: 2px 2px 3px #fff;
     color: #0b0bb6;
-   
-   
-}
+ }
 section.area_menu .menu  {
     display: flex;
     justify-content: right;
@@ -85,9 +92,25 @@ section.area_menu .menu  {
 .menu ul li a:hover {
     color: #0b0bac;
 }
+
+.hamburguer { /* pai-menu hamburguer */
+    display: none;
+    cursor: pointer;
+}
+.bar { /* filhos-menu hamburguer */
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #0000EE;
+    transition: all 0.3s ease-in-out;
+}
+
 .logo { /*primeiro h1 */
     display: flex;
     justify-content: center;
+    margin-top: 100px;
 }
 
 h1{ 
@@ -98,12 +121,7 @@ h1{
     text-shadow: 3px 3px 3px #4876FF;
     font-family: Fredoka One, sans-serif;
  } /* primeiro h1 */
- section.coment {
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 20px;
- }   
+ 
 p {
 display: flex;
 color: white;
@@ -113,42 +131,50 @@ margin-left: 25px;
 position: relative;
 top: -350px;
 text-shadow: 2px 2px 2px yellow;
-
 }
 
 figure {
     display: flex;
     justify-content: center;
     position: relative;
-    
-    
-}
+    margin-top: 30px;
+ }
 
 .soni_star  {
     display: flex;
     justify-content: center;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     background: #FFD700;
     border-radius: 50%;
 }
+.img1 img {
+    width: 12rem;
+}
+section.coment {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+ }   
 
 p.pri {
-    width: 300px;
-    height: 300px;
-    font-size: 1.9rem;
+    width: 320px;
+    height: 100px;
+    font-size: 1.6rem;
+    margin-left: 50px;
 }
 p.seg {
-    width: 300px;
-    height: 300px;
-    font-size: 1.9rem;
-    margin-right: 5px;
+    width: 320px;
+    height: 100px;
+    font-size: 1.6rem;
+   margin-right: 50px;
+    
 }
 
 #inform{
     display: flex;
     justify-content: center;
-     margin-top: 50px;
+     margin-top: 180px;
 }
 #inform p {
     display: flex;
@@ -160,20 +186,18 @@ p.seg {
     display: flex;
     justify-content: center;
     position: relative;
-    margin-top: 0px;
+    margin-top: 70px;
+   
  }
 #imagen1 img{
     position: absolute;
-    top: -200px;
+    top: -300px;
     width: 20rem;
-    
-}
-
-
+ }
 .imagen2 {
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
+    margin-top: px;
 
 }
 .imagen2 img {
@@ -393,6 +417,7 @@ h3#mt  {
  .imagen7 img:hover {
     transform: scale(1.2); 
 }
+
 #diret  {
     display: flex;
  }
@@ -435,8 +460,11 @@ h3#mt  {
     }
     
     
+    section.coment {
+        margin-top: 130px;
+    }
     .coment p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
     }
     nav ul li a {
         font-size: 1rem;
@@ -444,11 +472,110 @@ h3#mt  {
     .menu ul li a {
         font-size: 1rem;
     }
+    h2.propag {
+        font-size: 1.3rem;
+    }
     h1 {
         font-size: 3rem;
     }
+    .soni_star {
+        width: 300px;
+        height: 300px;
+    }
     .img1 img {
-        width: 100px;
+        width: 200px;
+    }
+    #inform p {
+        font-size: 2rem;
+    }
+    p.pri {
+        width: 300px;
+        height: 200px;
+    }
+    p.seg {
+    width: 300px;
+    height: 200px;
+}
+}
+@media(max-width: 1000px) {
+    p.pri {
+        width: 250px;
+        height: 200px;
+    }
+    p.seg {
+        width: 250px;
+        height: 200px;
     }
 }
-
+@media(max-width: 925px) {
+   
+   
+    .vip {
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .menu {
+        display: none;
+    }
+    
+          
+    .hamburguer {
+        display: block;
+    }
+    .hamburguer.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburguer.active .bar:nth-child(1) {
+        transform: translatey(8px) rotate(45deg);
+    }
+    .hamburguer.active .bar:nth-child(3) {
+        transform: translatey(-8px)  rotate(-45deg);
+    }
+    .nav-link {
+        color: #0b0bb6;
+        text-shadow: 2px 2px 2px #fff;
+    }
+    .nav-menu {
+        
+        position: fixed;
+        left: -100%;
+        margin-top: 25px;
+        border-radius: 0 0 20px 20px;
+        background: #FFD700;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        height: 40px;
+        transition: 0.3s;
+    }
+    .nav-menu.active {
+        left: 0;
+    }
+    .nav-itens {
+        margin-right: 30px;
+        padding: px;
+    }
+    .coment p {
+        font-size: 1.2rem;
+        margin: 20px;
+    }
+    
+    .social img {
+        width: 1.9rem;
+    }
+}
+@media (max-width: 860px) {
+    section.coment {
+        display: none;
+    }
+    #inform p{
+        margin-top: 250px;
+    }
+    #realize h1 {
+        font-size: 1.6rem;
+        margin-top: 20px;
+    }
+}
+ 

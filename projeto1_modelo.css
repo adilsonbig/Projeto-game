@@ -127,7 +127,10 @@ input {
     font-family: Fredoka One, sans-serif;
     text-align: center;
  }
- 
+ #imagen8 {
+   display: flex;
+   justify-content: center;
+ }
  #dicas_sonic {
     display: flex;
     flex-direction: column;
@@ -142,18 +145,19 @@ input {
  #dicas_sonic h1, h2 {
    text-align: center;
  }
+ section.manha-sonic {
+   display: flex;
+  justify-content: center;
+ }
  .dica1 {
     height: 690px;
     border: 2px solid #FFF;
     width: 90%;
-    position: relative;
-    right: -70px;
     background: #FFD700;
  }
  .dica1 p {
     color: #2a2aff;
     font-size: 1rem;
-
  }
  #tit_dica1 {
     display: flex;
@@ -166,6 +170,15 @@ input {
     position: relative;
     bottom: -100px;
     color: #FFF;
+ }
+ section.subzero {
+   display: flex;
+   justify-content: center;
+   
+ }
+ section.scorpion {
+   display: flex;
+   justify-content: center;
  }
  #dicas_MK-sb {
     display: block;

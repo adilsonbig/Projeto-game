@@ -415,4 +415,9 @@ input {
       font-size: 2rem;
    }
 }
+@media (max-width: 150px) {
+   #area_log {
+      font-size: 2rem;
+   }
+}
 

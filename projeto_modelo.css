@@ -674,7 +674,7 @@ h3#mt  {
             padding: 0px;
         }
     }
-    @media (max-width: 60px) {
+    @media (max-width: 40px) {
         #inform p {
             font-size: 0.9rem;
         }

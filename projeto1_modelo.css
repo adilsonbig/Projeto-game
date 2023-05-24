@@ -405,4 +405,14 @@ input {
    font-size: 1.2rem;
    padding: 10px;
 }
+@media (max-width: 500px) {
+   #area_log h1 {
+      font-size: 2.8rem;
+   }
+}
+@media (max-width: 350px) {
+   #area_log {
+      font-size: 2rem;
+   }
+}
 

@@ -699,6 +699,7 @@ h3#mt  {
             position: absolute;
             left: 180px;
         }
+        
     }
     @media (max-width: 350px) {
         #inform p {
@@ -710,9 +711,7 @@ h3#mt  {
         nav ul li a {
             padding: 0px;
         }
-        #area_log h1 {
-            font-size: 1.8rem;
-        }
+       
     }
     @media (max-width: 150px) {
         #inform p {

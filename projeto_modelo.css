@@ -145,6 +145,10 @@ figure {
 }
 .img1 img {
     width: 12rem;
+    transition: transform 0.2s;
+}
+.img1:hover img {
+    transform: scale(1.5);
 }
 section.coment {
     display: flex;
@@ -314,7 +318,8 @@ h3#mt  {
  #realize {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    margin-top: 50px;
+    
  }
  #realize h1 {
     font-size: 2rem;
@@ -322,6 +327,18 @@ h3#mt  {
     text-align: justify;
     
  }
+ #cadastro-app { /* Titulo tela de cadastro Mobile */
+    display: none;
+    
+    
+ }
+ #cadastro-app h1 {
+    text-align: center;
+    font-size: 2rem;
+    color: #FFD700;
+  }
+
+ 
  .cadastro #btn {
     display: flex;
     justify-content: center;
@@ -355,12 +372,13 @@ h3#mt  {
  #out {  /*volta ao home */
     display: flex;
     justify-content: right;
+    position: relative;
  }
  #out a {
+    position: absolute;
+    right: -70px;
+    top: -30px;
     color: white;
-    position: relative;
-    right: -60px;
-    top: -20px;
     text-decoration: none;
     transition: transform 0.2s;
  }
@@ -661,6 +679,25 @@ h3#mt  {
         }
         #alta h1 {
             font-size: 1.7rem;
+        }
+        #realize  {
+            display: none;
+        }
+        #cadastro-app {
+            display: block;
+            margin-top: 50px;
+        }
+        #form {
+            width: 250px;
+            height: 300px;
+        }
+        #out {
+            display: flex;
+            position: relative;
+        }
+        #out a {
+            position: absolute;
+            left: 180px;
         }
     }
     @media (max-width: 150px) {

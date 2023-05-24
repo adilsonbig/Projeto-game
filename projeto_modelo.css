@@ -659,7 +659,7 @@ h3#mt  {
             font-size: 1.7rem;
         }
     }
-    @media (max-width: 450px) {
+    @media (max-width: 400px) {
         #inform p {
             font-size: 0.9rem;
         }

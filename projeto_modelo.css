@@ -674,5 +674,16 @@ h3#mt  {
             padding: 0px;
         }
     }
+    @media (max-width: 100px) {
+        #inform p {
+            font-size: 0.9rem;
+        }
+        .area_menu {
+            display: flex;
+        }
+        nav ul li a {
+            padding: 0px;
+        }
+    }
 }
  

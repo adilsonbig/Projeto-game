@@ -434,14 +434,17 @@ body {
       text-shadow: 2px 2px 2px black;
       position: absolute;
       top: 133px;
+      
    }
    .input input {
       position: absolute;
-      top: 160px;
+      top: 163px;
        border-radius: 10px;
        background: yellow;
        color: darkblue;
        padding: 5px;
+       font-size: 1rem;
+       font-weight: bold;
       
    }
    #btn1 button {
@@ -487,12 +490,13 @@ body {
    }
    .input input {
       position: absolute;
-      top: 160px;
+      top: 163px;
        border-radius: 10px;
        background: yellow;
        color: darkblue;
        padding: 5px;
-      
+       font-size: 1rem;
+       font-weight: bold;
    }
    #btn1 button {
       position: absolute;

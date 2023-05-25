@@ -416,7 +416,42 @@ body {
    }
    .form1 {
       width: 300px;
-      height: 300px;
+      height: 500px;
+   }
+   
+
+   .input {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      position: relative;
+   }
+   .input label {
+      font-size: 1.7rem;
+      color: yellow;
+      text-shadow: 2px 2px 2px black;
+      position: absolute;
+      top: 133px;
+   }
+   .input input {
+      position: absolute;
+      top: 160px;
+       border-radius: 10px;
+       background: yellow;
+       color: darkblue;
+       padding: 5px;
+      
+   }
+   #btn1 button {
+      position: absolute;
+      top: 160px;
+       background-color: yellow;
+       border-radius: 5px;
+       cursor: pointer;
+       width: 100px;
+       height: 30px;
    }
 }
 @media (max-width: 350px) {
@@ -427,6 +462,46 @@ body {
 @media (max-width: 150px) {
    #area_log {
       font-size: 2rem;
+   }
+
+   .form1 {
+      width: 300px;
+      height: 500px;
+   }
+   
+
+   .input {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      position: relative;
+   }
+   .input label {
+      font-size: 1.7rem;
+      color: yellow;
+      text-shadow: 2px 2px 2px black;
+      position: absolute;
+      top: 133px;
+   }
+   .input input {
+      position: absolute;
+      top: 160px;
+       border-radius: 10px;
+       background: yellow;
+       color: darkblue;
+       padding: 5px;
+      
+   }
+   #btn1 button {
+      position: absolute;
+      top: 160px;
+       background-color: yellow;
+       border-radius: 5px;
+       cursor: pointer;
+       width: 100px;
+       height: 30px;
    }
 }
 

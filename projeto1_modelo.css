@@ -6,8 +6,18 @@ body {
     padding: 0px;
     width: auto;
     background-color: blue;
-   
+  }
+#area_log {
+   display: flex;
+   justify-content: center;
 }
+#area_log h1 {
+   color: yellow;
+   font-size: 4rem;
+   font-family: Fredoka One, sans-serif;
+   text-shadow: 3px 3px 3px black;
+}
+
 #log {
     display: flex;
     justify-content: center;
@@ -15,97 +25,92 @@ body {
    
 }
 .form1 {
-    display: flex;
+    display: block;
     justify-content: center;
     border: 3px solid yellow;
     width: 400px;
     height: 300px;
-    position: relative;
-    bottom: -90px;
-    left: -25px;
-   border-radius: 10px;
-   background: #2a2aff;
-   z-index: 0;
-  
-}
-.login {
-  display: block;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  bottom: -120px;
-
-  
-} 
-label {
-   position: relative;
-   right: -50px;
-   color: yellow;
-   text-shadow: 2px 2px 2px black;
-}
-input {
-    margin: 10px;
     border-radius: 10px;
-    background: yellow;
-    color: darkblue;
+    background: #2a2aff;
+    z-index: 0;
+  
 }
-#area_log {
-    display: flex;
-    justify-content: center;
-}
-#area_log h1 {
-    color: yellow;
-    font-size: 4rem;
-    font-family: Fredoka One, sans-serif;
-    text-shadow: 3px 3px 3px black;
-}
-#btn {
-    display: flex;
-    justify-content: center;
-}
-#btn button {
-    position: relative;
-    bottom: -10px;
-    background-color: yellow;
-    border-radius: 5px;
-    cursor: pointer;
-}
-#btn button:hover {
-    background: rgb(248, 172, 6);
-}
+
 #fig_user {
-    position: relative;
-    left: -20px;
+   display: flex;
+   justify-content: center;
+   position: relative;
 }
 #fig_user img {
-    width: 50px;
-    height: 50px;
-    position: relative;
-    right: -220px;
-    bottom: -140px;
+   position: absolute;
+   top: 45px;
+   width: 50px;
+   height: 50px;
     z-index: 1;
-    border: 1px solid yellow;
-    width: 50px;
-    height: 50px;
-    background: yellow;
-    border-radius: 50px;
-    box-shadow: 3px 3px 4px black;
+   border: 1px solid yellow;
+   width: 50px;
+   height: 50px;
+   background: yellow;
+   border-radius: 50px;
+   box-shadow: 3px 3px 4px black;
 }
+
 #out {
-    display: flex;
-    justify-content: right;
-    transition: transform 0.2s;
+   display: flex;
+   justify-content: right;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 #out a {
-    position: relative;
-    top: -90px;
-    right: -70px;
+   
     text-decoration: none;
     color: white;
 }
 #out a:hover {
-    transform: scale(1.2); 
+  
 }
+
+.input {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   padding: 30px;
+   position: relative;
+}
+.input label {
+   color: yellow;
+   text-shadow: 2px 2px 2px black;
+   position: absolute;
+   top: 100px;
+}
+
+.input input {
+   position: absolute;
+   top: 119px;
+    border-radius: 10px;
+    background: yellow;
+    color: darkblue;
+   
+}
+
+#btn1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+#btn1 button {
+   position: absolute;
+   top: 90px;
+    background-color: yellow;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#btn1 button:hover {
+    background: rgb(248, 172, 6);
+}
+
+
 #dica_back {
     display: flex;
     justify-content: right;
@@ -408,6 +413,10 @@ input {
 @media (max-width: 500px) {
    #area_log h1 {
       font-size: 2.8rem;
+   }
+   .form1 {
+      width: 300px;
+      height: 300px;
    }
 }
 @media (max-width: 350px) {

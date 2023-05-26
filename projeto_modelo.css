@@ -440,6 +440,9 @@ h3#mt  {
 #diret  {
     display: flex;
  }
+ #direct2 {
+    display: none;
+ }
  section.rodape {
     display: flex;
     justify-content: space-between;
@@ -737,6 +740,9 @@ h3#mt  {
         }
         #diret {
             display: none;
+        }
+        #direct2 {
+            display: block;
         }
 
     }

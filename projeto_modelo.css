@@ -763,7 +763,32 @@ margin-top: 100px;
             font-weight: bolder;
         }
         .form {
-            
+            width: 300px;
+            height: 500px;  
+            gap: 30px;
+        }
+        .form input {
+            padding: 6px;
+            font-weight: bolder;
+            color: #00008B;
+        }
+        .out a {
+            position: absolute;
+            top: -20px;
+           font-size: 1.1rem;
+        }
+        #btn {
+            margin-top: 20px;
+        }
+        #btn button {
+            padding: 8px;
+            width: 100px;
+        }
+        .btn2 {
+            margin-top: 15px;
+        }
+        .btn2 a {
+            font-size: 1.5rem;
         }
          
     }
@@ -817,6 +842,35 @@ margin-top: 100px;
             color: #FFD700;
             font-weight: bolder;
             text-decoration: none;
+        }
+
+        .form {
+            width: 300px;
+            height: 500px;  
+            gap: 30px;
+        }
+        .form input {
+            padding: 6px;
+            font-weight: bolder;
+            color: #00008B;
+        }
+        .out a {
+            position: absolute;
+            top: -20px;
+           font-size: 1.1rem;
+        }
+        #btn {
+            margin-top: 20px;
+        }
+        #btn button {
+            padding: 8px;
+            width: 100px;
+        }
+        .btn2 {
+            margin-top: 15px;
+        }
+        .btn2 a {
+            font-size: 1.5rem;
         }
 
     }

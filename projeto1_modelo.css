@@ -543,6 +543,9 @@ body {
       font-size: 2rem;
    }
 }
+
+
+
 @media (max-width: 150px) {
    #area_log {
       font-size: 2rem;
@@ -605,6 +608,7 @@ body {
       border-radius: 10px;
       width: 300px;
       height: 400px;
+      gap: 15px;
    }
 
    .titulo_game {
@@ -613,10 +617,7 @@ body {
       text-shadow: 2px 2px rgb(5, 5, 94);
       font-size: 1.2rem;
    }
-   .links_site_game {
-      gap: 15px;
-   }
-
+   
    .links_site_game a {
       color: rgb(6, 6, 82);
       font-size: 1.5rem;

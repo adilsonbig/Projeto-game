@@ -708,6 +708,9 @@ h3#mt  {
             position: absolute;
             left: 180px;
         }
+        section #direct {
+            display: none;
+        }
         
     }
     @media (max-width: 350px) {

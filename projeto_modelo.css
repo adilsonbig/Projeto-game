@@ -770,6 +770,10 @@ margin-top: 100px;
         #area_log h1 {
             font-size: 1.8rem;
         }
+        .rodape {
+            display: flex;
+            align-items: center;
+        }
         section #direct {
             display: none;
         }

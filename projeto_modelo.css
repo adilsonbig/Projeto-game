@@ -628,9 +628,13 @@ h3#mt  {
         #inform p {
             font-size: 2rem;
         }
+        #imagen1 {
+            margin-top: 0px;
+        }
         .imagen2 {
             flex-direction: column;
             align-items: center;
+            margin-top: 0px;
         }
         .imagen2 img {
             margin-bottom: 100px;
@@ -737,6 +741,9 @@ h3#mt  {
        
     }
     @media (max-width: 150px) {
+        #imagen1 {
+            margin-top: 0px;
+        }
         #inform p {
             font-size: 0.9rem;
         }

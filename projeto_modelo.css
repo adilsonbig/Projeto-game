@@ -437,7 +437,7 @@ h3#mt  {
     transform: scale(1.2); 
 }
 
-#diret  {
+#direct  {
     display: flex;
  }
  #direct2 {
@@ -451,13 +451,13 @@ h3#mt  {
     margin-bottom: 10px;
    
  }
- section.rodape #diret a {
+ section.rodape #direct a {
     text-decoration: none;
     color: #FFD700;
     text-shadow: 2px 2px 2px black;
     margin-left: 20px;
  }
- section.rodape #diret a:hover {
+ section.rodape #direct a:hover {
     color: orange;
  }
  section.rodape .social {
@@ -738,7 +738,7 @@ h3#mt  {
         #area_log h1 {
             font-size: 1.8rem;
         }
-        #diret {
+        #direct {
             display: none;
         }
         #direct2 {

@@ -410,6 +410,47 @@ body {
    font-size: 1.2rem;
    padding: 10px;
 }
+#pag_cont {
+   text-align: center;
+   font-family: Fredoka One, sans-serif;
+   color: #FFD700;
+   text-shadow: 2px 2px 3px rgb(6, 6, 75);
+   font-size: 2.3rem;
+}
+
+.jogue_free {
+   display: flex;
+   justify-content: center;
+}
+.links_site_game {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-direction: column;
+   border: 10px solid #FFD700;
+   border-radius: 10px;
+   width: 500px;
+   height: 400px;
+}
+.titulo_game {
+   color: #FFF;
+   font-family: Fredoka One, sans-serif;
+   text-shadow: 2px 2px rgb(5, 5, 94);
+   font-size: 1.5rem;
+}
+.links_site_game a {
+   color: rgb(6, 6, 82);
+   font-size: 1.9rem;
+   font-family: Fredoka One, sans-serif;
+   text-shadow: 2px 2px #FFF;
+   text-decoration: none;
+}
+
+
+
+
+
+
 @media (max-width: 500px) {
    #area_log h1 {
       font-size: 2.8rem;

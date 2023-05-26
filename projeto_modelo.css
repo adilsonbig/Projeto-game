@@ -711,7 +711,18 @@ h3#mt  {
         section #direct {
             display: none;
         }
-        
+        #direct2 {
+            display: block;
+            margin-left: 20px;
+            
+            
+        }
+        #direct2 a {
+            color: #FFD700;
+            font-family: Arial;
+            font-weight: bolder;
+        }
+         
     }
     @media (max-width: 350px) {
         #inform p {
@@ -746,10 +757,13 @@ h3#mt  {
         }
         #direct2 {
             display: block;
+            margin-left: 20px;
         }
         #direct2 a {
             font-family: Arial;
             color: #FFD700;
+            font-weight: bolder;
+            
         }
 
     }
